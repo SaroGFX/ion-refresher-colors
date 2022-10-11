@@ -1,0 +1,19 @@
+/* Fix issue in demo where the header blocks the refresher */
+ion-content::part(background) {
+    background-color: transparent!important;
+}
+
+/* Giving header alternative color */
+ion-header {
+    background-color: red !important;
+}
+
+ion-toolbar {
+    --background: red !important;
+}
+
+/* Trying to give ion-refresher alternative color on iOS */
+
+ion-refresher-content {
+    background-color: purple;
+}

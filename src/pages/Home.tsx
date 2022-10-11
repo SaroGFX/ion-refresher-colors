@@ -41,6 +41,8 @@ const Home: React.FC = () => {
           <IonRefresherContent></IonRefresherContent>
         </IonRefresher>
 
+        
+
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">
