@@ -1,0 +1,7 @@
+{
+  "name": "IonRefresher colors",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
